@@ -5,6 +5,9 @@ Generating crystal structures directly from textual descriptions marks a pivotal
 
 Releasing Code Soon!
 
-![Screenshot](images/CrysText.png)
+<!-- ![Screenshot](images/CrysText.png) -->
+
+
+[![Watch the video](images/CrysText.png)](images/crystext_animation.mp4)
 
 
