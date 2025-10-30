@@ -7,6 +7,6 @@ The ability to generate crystal structures directly from textual descriptions ma
 <!-- ![Screenshot](images/CrysText.png) -->
 
 ![overview](images/crystext_CSP_final.gif)
-![overview](images/crystext_ehull_final.gif)
+
 
 
