@@ -1,7 +1,5 @@
 # CrysText: A Generative AI Approach for Text-Conditioned Crystal Structure Generation using LLM
 
-## CrysText: Text-Conditioned Crystal Structure Generation
-
 - **CrysText** is a generative framework that creates crystal structures directly from natural-language descriptions.
 - Takes prompts specifying **composition** and **space group**, and outputs valid **CIF (Crystallographic Information File)** structures.
 
