@@ -1,7 +1,8 @@
 # CrysText: A Generative AI Approach for Text-Conditioned Crystal Structure Generation using LLM
 
 - **CrysText** is a generative framework that creates crystal structures directly from natural-language descriptions.
-- Takes prompts specifying **composition** and **space group**, and outputs valid **CIF (Crystallographic Information File)** structures.
+- Takes prompts specifying **composition** and **space group**, and outputs valid **CIF (Crystallographic Information File)** structures. 
+- CrysText is capable of generating novel crystal structures that are thermodynamically stable, guided by energy-above-hull conditioning.
 
 ---
 
@@ -111,10 +112,8 @@ python grpo_training.py
 All models are available on Hugging Face:
 
 ### CrysText Models
-- **[truptimohanty/CrysText](https://huggingface.co/truptimohanty/CrysText)** - Supervised fine-tuned Mistral-7B-v0.3 model for crystal structure generation
+- **[truptimohanty/CrysText](https://huggingface.co/truptimohanty/CrysText)** - Fine-tuned Mistral-7B-v0.3 model for crystal structure generation
 - **[truptimohanty/CrysText_RL](https://huggingface.co/truptimohanty/CrysText_RL)** - GRPO-trained model with reinforcement learning feedback
-
-### E_hull Conditioning Models
 - **[truptimohanty/CrysText_Ehull_Mistral](https://huggingface.co/truptimohanty/CrysText_Ehull_Mistral)** - Fine-tuned Mistral-7B-v0.3 conditioned on energy above convex hull
 - **[truptimohanty/CrysText_Ehull_LLaMA](https://huggingface.co/truptimohanty/CrysText_Ehull_LLaMA)** - Fine-tuned LLaMA-3.1-8B conditioned on energy above convex hull
 
