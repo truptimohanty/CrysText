@@ -37,7 +37,7 @@
 
 ![CrysText-RL](images/CrysText-RL_workflow.png)
 
-#### Workflow of CrysText-RL for crystal structure prediction using Group Relative Policy Optimization. The training phase begins with a textual prompt specifying the target composition and space group, which is provided to the policy model. The model generates multiple candidate crystal structures in CIF format (n=6 samples per prompt). Each generated structure undergoes evaluation through a multi-stage reward function comprising: (i) CIF format validation by parsing the generated output using pymatgen to obtain structure object, (ii) structural validity assessment based on interatomic distances and unit cell volume, (iii) compositional accuracy verification against the target composition, and (iv) structural match evaluation against the ground-truth structure using the pymatgen StructureMatcher class. Rewards from all generated samples are normalized using the group mean and standard deviation to compute advantage values, which drive policy updates under the GRPO loss function. The CrysText reference model is used to compute the KL divergence term, constraining policy updates to prevent excessive deviation from the reference model.
+CrysText-RL enhances crystal structure generation using Group Relative Policy Optimization (GRPO). For each text prompt, the model generates multiple CIF samples, which are rewarded based on format validity, structural realism, composition accuracy, and similarity to the target structure. Normalized group rewards guide policy updates, while a KL term keeps the model aligned with the original CrysText baseline. This reinforcement learning loop improves composition fidelity, symmetry adherence, and structural match rate beyond supervised fine-tuning.
 
 ---
 
