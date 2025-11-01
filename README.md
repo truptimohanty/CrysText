@@ -106,7 +106,7 @@ python grpo_training.py
 
 ---
 
-## Pre-trained Models
+## Fine-Tuned Models
 
 All models are available on Hugging Face:
 
