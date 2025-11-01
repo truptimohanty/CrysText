@@ -77,7 +77,7 @@ Train the model on your own dataset:
 
 ### GRPO Training
 
-Train with reinforcement learning:
+Train with reinforcement learning (default: uses CrysText as reference model):
 
 ```bash
 python grpo_training.py
