@@ -1,8 +1,31 @@
 # CrysText: A Generative AI Approach for Text-Conditioned Crystal Structure Generation using LLM
 
-The ability to generate crystal structures directly from textual descriptions marks a pivotal advancement in materials informatics and underscores the emerging role of large language models (LLMs) in inverse design. In this work, we introduce CrysText, a text-conditioned framework that generates crystal structures in Crystallographic Information File (CIF) format from natural language prompts specifying composition and space group. Leveraging LLaMA-3.1-8B and Mistral-7B-v0.3 fine-tuned using Quantized Low-Rank Adaptation (QLoRA), our approach enables the efficient and scalable generation of CIF-formatted structures directly from input descriptions, eliminating the need for post-processing with rapid inference. Evaluations on the MP-20 benchmark demonstrate high structural match rates and low RMSE values, confirming the model's ability to generate physically consistent crystal structures aligned with compositional and symmetry constraints. By incorporating energy above the convex hull as a conditioning parameter, CrysText further demonstrates the ability to generate thermodynamically stable novel materials. 
+## CrysText: Text-Conditioned Crystal Structure Generation
 
-We subsequently extend this framework with CrysText-RL, which integrates Group Relative Policy Optimization (GRPO) to provide reinforcement learning feedback directly on generated CIF outputs via group-based normalized rewards. CrysText-RL achieves additional improvements over the supervised CrysText model in terms of composition and space group satisfiability and structure match rate. This work establishes a scalable paradigm for text-driven crystal structure generation, demonstrating that both supervised fine-tuning and reinforcement learning enable a pathway towards accelerated materials discovery.
+- **CrysText** is a generative framework that creates crystal structures directly from natural-language descriptions.
+- Takes prompts specifying **composition** and **space group**, and outputs valid **CIF (Crystallographic Information File)** structures.
+
+---
+
+### Methodology
+- Built using **LLaMA-3.1-8B** and **Mistral-7B-v0.3**, fine-tuned with **Quantized Low-Rank Adaptation (QLoRA)**.
+- Enables **efficient, scalable CIF generation** without the need for post-processing.
+- Uses **energy above the convex hull** as an additional conditioning signal to promote thermodynamic stability.
+- Designed to support inverse design workflows in **materials informatics**.
+
+---
+
+
+### CrysText-RL (Reinforcement Learning Extension)
+- Extends CrysText using **Group Relative Policy Optimization (GRPO)**.
+- Applies reinforcement learning directly on generated CIFs using **group-based normalized rewards**.
+- Improves:
+  - Composition and space-group satisfiability  
+  - Structure match rate and validity  
+  - Robustness beyond supervised fine-tuning  
+
+---
+
 
 ## Crystal Structure Prediction
 ![overview](images/CrysText_CSP_final.gif)
@@ -94,8 +117,8 @@ All models are available on Hugging Face:
 - **[truptimohanty/CrysText_RL](https://huggingface.co/truptimohanty/CrysText_RL)** - GRPO-trained model with reinforcement learning feedback
 
 ### E_hull Conditioning Models
-- **[truptimohanty/CrysText_Ehull_Mistral](https://huggingface.co/truptimohanty/CrysText_Ehull_Mistral)** - Mistral-7B-v0.3 conditioned on energy above convex hull
-- **[truptimohanty/CrysText_Ehull_LLaMA](https://huggingface.co/truptimohanty/CrysText_Ehull_LLaMA)** - LLaMA-3.1-8B conditioned on energy above convex hull
+- **[truptimohanty/CrysText_Ehull_Mistral](https://huggingface.co/truptimohanty/CrysText_Ehull_Mistral)** - Fine-tuned Mistral-7B-v0.3 conditioned on energy above convex hull
+- **[truptimohanty/CrysText_Ehull_LLaMA](https://huggingface.co/truptimohanty/CrysText_Ehull_LLaMA)** - Fine-tuned LLaMA-3.1-8B conditioned on energy above convex hull
 
 ### Usage in Code
 ```python
