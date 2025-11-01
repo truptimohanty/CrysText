@@ -156,8 +156,6 @@ model, tokenizer = FastLanguageModel.from_pretrained(
 
 ## 🚀 Quick Setup Guide
 
-Get started in 3 minutes:
-
 ```bash
 # 1. Create environment
 conda create -n CrysText python=3.11 -y
