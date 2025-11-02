@@ -84,6 +84,12 @@ python inference.py truptimohanty/CrysText NdAgHg2 225 output.cif
 - `space_group`: `225`
 - `output_cif_path`: `./generated_structure.cif`
 
+### Conditioning with Energy above hull 
+```bash
+python conditioning_ehull.py
+```
+
+
 ### Fine-tuning
 
 Train the model on your own dataset:
