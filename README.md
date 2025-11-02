@@ -181,12 +181,17 @@ python finetune.py
 
 # 5. Conditioning with E_hull
 python conditioning_ehull.py
+
+# 6. Reinforcement Learning
+python grpo_training.py
+
 ```
 
 **Usage:** 
 - Inference: `python inference.py [model_path] [composition] [space_group] [output_file]`
-- Fine-tune: `python finetune.py` (uses `unsloth/mistral-7b-v0.3` by default)
 - Conditioning: `python conditioning_ehull.py`
+- Fine-tune: `python finetune.py` (uses `unsloth/mistral-7b-v0.3` by default)
+- Reinforcement Learning: `python grpo_training.py` (uses CrysText as reference model)
 
 ---
 
