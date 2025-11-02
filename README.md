@@ -119,7 +119,7 @@ All models are available on Hugging Face:
 
 ### CrysText Models
 - **[truptimohanty/CrysText](https://huggingface.co/truptimohanty/CrysText)** - Fine-tuned Mistral-7B-v0.3 model for crystal structure generation
-- **[truptimohanty/CrysText_RL](https://huggingface.co/truptimohanty/CrysText_RL)** - GRPO-trained model with reinforcement learning feedback
+- **[truptimohanty/CrysText-RL](https://huggingface.co/truptimohanty/CrysText-RL)** - GRPO-trained model with reinforcement learning feedback
 - **[truptimohanty/CrysText_Ehull_Mistral](https://huggingface.co/truptimohanty/CrysText_Ehull_Mistral)** - Fine-tuned Mistral-7B-v0.3 conditioned on energy above convex hull
 - **[truptimohanty/CrysText_Ehull_LLaMA](https://huggingface.co/truptimohanty/CrysText_Ehull_LLaMA)** - Fine-tuned LLaMA-3.1-8B conditioned on energy above convex hull
 
