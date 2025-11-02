@@ -135,7 +135,7 @@ model, tokenizer = FastLanguageModel.from_pretrained(
 
 # Load CrysText-RL model
 model, tokenizer = FastLanguageModel.from_pretrained(
-    model_name="truptimohanty/CrysText_RL",
+    model_name="truptimohanty/CrysText-RL",
     max_seq_length=2048,
     dtype=None,
     load_in_4bit=True
