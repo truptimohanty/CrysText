@@ -25,6 +25,8 @@
 
 ---
 
+![Paper](https://chemrxiv.org/engage/chemrxiv/article-details/6902b85bef936fb4a21c992a)
+
 
 ## Crystal Structure Prediction
 ![overview](images/CrysText_CSP_final.gif)
