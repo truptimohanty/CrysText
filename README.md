@@ -23,15 +23,15 @@
   - Structure match rate and validity  
   - Robustness beyond supervised fine-tuning  
 
----
+
 <p align="center">
   <a href="https://chemrxiv.org/engage/chemrxiv/article-details/6902b85bef936fb4a21c992a" target="_blank">
     <br>
-    <font size="20"><b>PAPER</b></font>
+    <span style="font-size:28px; font-weight:700;">PAPER</span>
   </a>
 </p>
 
-
+---
 
 
 ## Crystal Structure Prediction
