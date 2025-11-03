@@ -26,11 +26,11 @@
 ---
 <p align="center">
   <a href="https://chemrxiv.org/engage/chemrxiv/article-details/6902b85bef936fb4a21c992a" target="_blank">
-    <img src="https://img.icons8.com/ios-filled/200/000000/document.png" width="100" />
     <br>
-    <b>Click to open the paper</b>
+    <font size="5"><b>Click to open the paper</b></font>
   </a>
 </p>
+
 
 
 
