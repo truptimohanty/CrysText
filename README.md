@@ -27,7 +27,7 @@
 <p align="center">
   <a href="https://chemrxiv.org/engage/chemrxiv/article-details/6902b85bef936fb4a21c992a" target="_blank">
     <br>
-    <font size="5"><b>Click to open the paper</b></font>
+    <font size="8"><b>PAPER</b></font>
   </a>
 </p>
 
