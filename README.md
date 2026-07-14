@@ -1,7 +1,9 @@
 ## CrysText: A Generative AI Approach for Text-Conditioned Crystal Structure Generation using LLM
 
 <p align="center">
-  <a href="https://chemrxiv.org/engage/chemrxiv/article-details/6902b85bef936fb4a21c992a" target="_blank">
+  <a href="[https://chemrxiv.org/engage/chemrxiv/article-details/6902b85bef936fb4a21c992a](https://doi.org/10.1007/s40192-026-00451-8
+
+)" target="_blank">
     <br>
     <span style="font-size:28px; font-weight:700;">PAPER</span>
   </a>
