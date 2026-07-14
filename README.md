@@ -1,12 +1,11 @@
-## CrysText: A Generative AI Approach for Text-Conditioned Crystal Structure Generation using LLM
+# CrysText: A Generative AI Approach for Text-Conditioned Crystal Structure Generation using LLM
 
 <p align="center">
-  <a href="[https://chemrxiv.org/engage/chemrxiv/article-details/6902b85bef936fb4a21c992a](https://doi.org/10.1007/s40192-026-00451-8
-
-)" target="_blank">
-    <br>
-    <span style="font-size:28px; font-weight:700;">PAPER</span>
-  </a>
+  <a href="https://doi.org/10.1007/s40192-026-00451-8" target="_blank"><b>📄 READ THE PAPER</b></a>
+  <br>
+  <sub>Published in <em>Integrating Materials and Manufacturing Innovation</em> (2026)</sub>
+  <br>
+  <sub>No institutional access? Read the free <a href="https://chemrxiv.org/engage/chemrxiv/article-details/6902b85bef936fb4a21c992a" target="_blank">ChemRxiv preprint</a></sub>
 </p>
 
 - **CrysText** is a generative framework that creates crystal structures directly from natural-language descriptions.
@@ -205,3 +204,19 @@ python grpo_training.py
 
 ---
 
+## Citation
+
+If you use CrysText or CrysText-RL in your work, please cite:
+
+```bibtex
+@article{mohanty2026crystext,
+  title   = {CrysText: A Generative AI Approach for Text-Conditioned Crystal Structure Generation Using LLM},
+  author  = {Mohanty, Trupti and Mehta, Maitrey and Sayeed, Hasan M. and Oded, Bat-El and Pitussi, Itay and Borenstein, Arie and Srikumar, Vivek and Sparks, Taylor D.},
+  journal = {Integrating Materials and Manufacturing Innovation},
+  year    = {2026},
+  doi     = {10.1007/s40192-026-00451-8},
+  publisher = {Springer Nature}
+}
+```
+
+---
